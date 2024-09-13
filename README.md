@@ -28,4 +28,5 @@ Applications:
 This system has a wide range of real-world applications. It can be used for room mapping, creating accurate 3D models of indoor spaces, or for measuring dimensions in loading docks to ensure vehicles fit correctly. Additionally, it can be applied to create 3D models of various objects for reverse engineering, or for precise measurement in prosthetic design, ensuring proper attachment.
 
 Limitations:
+
 One limitation of the system is the maximum range of the ToF sensor, which is restricted to 4000mm. Additionally, in brightly lit environments, the sensor’s performance may be reduced. The microcontroller’s floating-point precision can introduce small errors in measurement accuracy, especially when performing complex trigonometric calculations. The system’s speed is also limited by the ToF sensor’s maximum measurement frequency of 50Hz, and by the rotation speed of the stepper motor, which adds delays between each measurement.
